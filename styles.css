@@ -3,11 +3,10 @@
   text-align: justify;
 }
 
-/* Target the custom table */
 .custom-materials-table {
   width: 100%;
+  table-layout: auto;
   border-collapse: collapse;
-  margin-top: 1em;
 }
 
 .custom-materials-table td,
@@ -15,13 +14,28 @@
   padding: 0.75em 1em;
   vertical-align: middle;
   border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
 }
 
-/* Add extra spacing between Lecture and Supplementary Materials */
+.custom-materials-table td:nth-child(1),
+.custom-materials-table th:nth-child(1) {
+  width: 35%;
+  padding-right: 1.5em;
+}
+
+.custom-materials-table td:nth-child(2),
+.custom-materials-table th:nth-child(2) {
+  width: 45%;
+  padding-right: 1.5em;
+}
+
 .custom-materials-table td:nth-child(3),
 .custom-materials-table th:nth-child(3) {
+  width: 20%;
   padding-right: 40px;
 }
+
+
 
 /* Thicker line under header row */
 .custom-materials-table thead th {

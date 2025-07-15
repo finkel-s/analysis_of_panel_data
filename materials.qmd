@@ -3,29 +3,8 @@ title: "Materials"
 ---
 
 ```{=html}
-<style>
-  .overflow-table {
-    font-size: 0.85rem; /* Smaller font for compact display */
-    width: 100%; /* Ensure the table fits within page width */
-    line-height: 1.2; /* Tighter line spacing */
-  }
-  .overflow-table th, .overflow-table td {
-    padding: 0.3rem; /* Reduce padding for compact layout */
-    text-align: left; /* Left-align for readability */
-    word-wrap: break-word; /* Wrap long text within cells */
-    vertical-align: top; /* Align cell content to the top */
-  }
-  .overflow-table th:nth-child(1), .overflow-table td:nth-child(1) {
-    width: 7%; /* Increase width of the first column */
-  }
-  .below-table {
-    font-size: 0.85rem; /* Match the font size of the table */
-    line-height: 1.2; /* Match line height */
-    margin-top: 1rem; /* Add spacing above the text */
-  }
-</style>
-```
-
+<br>
+<br>
 <table class="custom-materials-table">
   <thead>
     <tr>
@@ -156,3 +135,4 @@ title: "Materials"
     </tr>
   </tbody>
 </table>
+```
