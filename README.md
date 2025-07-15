@@ -1,0 +1,137 @@
+## Course Description
+
+This course aims to provide an overview of statistical methods appropriate for the analysis of longitudinal data, or data collected on multiple units (individuals, states, dyads, countries) at more than one point in time. The course will focus on models for the analysis of "panel data," which by convention is used to describe data with a relatively large number of units and relatively few time points. The emphasis throughout will be on taking advantage of the benefits that panel data provide the researcher in making inferences about causal dynamics, while at the same time being sensitive to the specific problems and complexities that emerge when conducting panel analyses. On the benefits side, panel data provides the researcher with increased ability to:
+
+1.  model directly individual-level change and growth in dependent variables
+2.  estimate models that control for unmeasured unit-specific effects or 'unobserved heterogeneity'
+3.  test alternative lag structures and models of reciprocal causality between variables
+4.  estimate models that specify and account for variation in individual-level intercepts, slopes and/or rates of change over time
+5.  estimate causal effects after controlling for the confounding effects of measurement error
+
+We'll begin by situating panel analysis within a general framework for causal inference. We'll then provide an overview of panel models from each of the three traditional approaches that dominate the field: the "econometric" tradition emphasizing unobserved heterogeneity; the "structural equation" tradition emphasizing models with reciprocal causality and measurement error; and the "multilevel modeling" tradition emphasizing models with longitudinal growth and random coefficients. As will become clear, these traditions are increasingly converging, and it is more and more common now in the panel literature to see models that incorporate features of each. It is also the case that nearly all panel models from each tradition can now be estimated in Stata 15 (which we will use in the course) and a wide range of other statistical software packages.
+
+A note on the mathematical/statistical difficulty in the course. There will not be an emphasis on derivations of appropriate statistical estimators and so forth; rather, the emphasis will be on grasping the underlying logic of the various models, understanding how, when, and why to use them to achieve the goals specified above in your own research, and learning how to profit from, and to critique, published works in the discipline that make use of these techniques. There will be a reasonable amount of mathematics, formulas, etc., that will be needed to understand the various models and methods, but all of it will be presented in ways that, ideally, will help guide your own research endeavors. I am assuming only that you have had basic courses in regression and the linear model (i.e., the equivalent of PS2030).
+
+## Texts
+
+-   Allison, Paul. 2009. *Fixed Effects Regression Models*. Thousand Oaks, Ca.: Sage Publications.
+-   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*. Thousand Oaks, Ca.: Sage Publications. (Royalties donated to Pi Sigma Alpha, Political Science Honor Society).
+-   Andress, Golsch, and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*. Heidelberg: Springer-Verlag.
+
+## Supplemental References
+
+-   Acock, Alan C. 2013. *Discovering Structural Equation Modeling Using Stata*. College Station, Tx.: Stata Press.
+-   Angrist, Joshua D. and Jőrn-Steffen Pischke, *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press: 2009.
+-   Kaplan, David. 2002. *Structural Equation Modeling: Foundations and Extensions*. Thousand Oaks, Ca.: Sage Publications.
+-   Newsom, Jason. 2015. *Longitudinal Structural Equation Modeling: A Comprehensive Introduction*. New York: Routledge.
+-   Singer, Judith D. and John B. Willett. 2003. *Applied Longitudinal Data Analysis: Modeling Change and Event Occurrence*. New York: Oxford University Press.
+-   Rabe-Hesketh, Sophia, and Anders Skrondal. 2012. *Multilevel and Longitudinal Analysis with Stata, Volume 1: Continuous Responses*. 3rd Edition. College Station, Tx.: Stata Press.
+
+## Course Requirements
+
+Grades will be based on a 20--25 page research paper (40%), two homework exercises which relate to specific statistical methods and problems we will discuss (25% each), and an oral presentation (with PowerPoint and/or related materials) of your research paper (10%). The paper will be a quantitative analysis, using methods from this course, of longitudinal panel data that you will collect or access from social science archives or other sources. The paper should have some substantive interest to you or be relevant to your studies in the graduate program; ideally, you can think of it as the first draft of a master's thesis, convention paper, or possible journal publication. The paper will discuss your basic theoretical framework, your hypotheses, statistical models, results, possible problems with the analysis and what you may have done to correct or account for these problems. It will conclude with a discussion of the relevance of your findings for the general topic and for future research.
+
+The homework exercises will be periodic problems or data to analyze and will illustrate aspects of the statistical techniques being covered in class.
+
+## Course Outline
+
+The course is organized by units and then topics within units. We will maintain a certain amount of flexibility with the schedule, so that we can spend more time on some topics/units and scale back on others as circumstances warrant.
+
+### Unit 1: Causal Inference and Econometric Panel Models
+
+#### 1. Introduction to Panel Analysis and Causal Inference
+
+-   Angrist, Joshua D. and Jőrn-Steffen Pischke. 2009. *Mostly Harmless Econometrics*. Princeton University Press, Chapters 2 and 5.\
+-   Allison, Paul D. 1994. *Using Panel Data to Estimate the Effect of Events*. Sociological Methods and Research 23(2): 174-199.
+-   Allison, Paul D. 2009. *Fixed Effects Regression Models*, Chapters 1-2.
+
+#### 2. Fixed and Random Effects Models
+
+-   Halaby, Charles. 2004. "Panel Models in Sociological Research: Theory into Practice." *Annual Review of Sociology* 30: 535--44. - Andress, Golsch and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*, Chapters 3--4.\
+-   Rabe-Hesketh and Skrondal. *Multilevel and Longitudinal Modeling Using Stata*, Chapters 2--3; Chapter 5 to p.25.\
+-   Allison, Paul D. 2019. "Asymmetric Fixed-effects Models for Panel Data." *Socius* 5: 1--2.
+
+#### 3. Hybrid Models
+
+-   Firebaugh, Glenn, Warner, C., and Massoglia, M. 2013. "Fixed Effects, Random Effects, and Hybrid Models for Causal Analysis." In S.L. Morgan (Ed.), *Handbook of Causal Inference for Social Research*, pp. 113--132. New York: Springer.\
+-   Bell, Andrew, and Kelvyn Jones. 2015. "Explaining Fixed Effects: Random Effects Modeling of Time Series Cross-Section and Panel Data." *Political Science Research and Methods* 3(1): 133--153.
+
+#### 4. Dynamic Panel Models
+
+-   Castro-Schilo, Laura, and Kevin J. Grimm. 2018. "Using Residualized Change Versus Difference Scores for Longitudinal Research." *Journal of Social and Relationships* 35(1): 32--58.\
+-   Vaisey, Stephen, and Andrew Miles. 2014. "What You Can---and Can't---Do with Three-Wave Panel Data." *Sociological Methods and Research*.\
+-   Wawro, Gregory. 2002. "Estimating Dynamic Panel Models in Political Science." *Political Analysis* 10: 25--48.\
+-   Rabe-Hesketh and Skrondal. *Multilevel and Longitudinal Modeling Using Stata*, pp. 250--257; 269--282.\
+-   Imai, Kosuke, and In Song Kim. 2019. "When Should We Use Unit Fixed Effects Regression Models for Causal Inference with Longitudinal Data?" *American Journal of Political Science*.
+
+### Unit 2: Structural Equation Panel Models
+
+#### 1. Introduction to Structural Equation Modeling
+
+-   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapter 1 and Appendix.\
+-   Kaplan, David. 2002. *Structural Equation Modeling*, Chapters 2 and 6.\
+-   Hooper, Daire, Coughlan, Joseph, and Mullen, Michael R. 2008. "Structural Equation Modelling: Guidelines for Determining Model Fit." *The Electronic Journal of Business Research Methods* 6: 53--60.
+
+#### 2. Models with Reciprocal Causality
+
+-   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapters 2--3.\
+-   Newsom, Jason. 2015. *Longitudinal Structural Equation Modeling*, Chapters 4--5.
+
+#### 3. Measurement Error Models
+
+-   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapter 4.\
+-   Little, Todd D. 2013. *Longitudinal Structural Equation Modeling*. New York: The Guilford Press, Chapter 5.\
+-   Kaplan, David. 2002. *Structural Equation Modeling*, Chapter 3.
+
+#### 4. SEM Fixed Effects, Random Effects, and Dynamic Panel Models
+
+-   Allison, Paul D. 2009. *Fixed Effects Regression Models*, Chapter 6.\
+-   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapter 5.\
+-   Bollen, Kenneth A., and Jennie E. Brand. 2010. "A General Panel Model with Fixed and Random Effects: A Structural Equations Approach." *Social Forces* 89(1): 1--34.\
+-   Allison, Paul D., Richard Williams, and Enrique Moral-Benito. 2017. "Maximum Likelihood for Dynamic Panel Models with Cross-Lagged Effects." *Socius* 3: 1--17.\
+-   Hamaker, Ellen L., Rebecca Kuiper, and Raoul Grasman. 2015. "A Critique of the Cross-Lagged Panel Model." *Psychological Methods* 20(1): 102--116.
+
+### Unit 3: Multilevel Longitudinal Models
+
+#### 1. Longitudinal Growth and Mixed Models
+
+-   Andress, Golsch, and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*, pp. 180--202.\
+-   Singer, Judith D., and John B. Willett. 2003. *Applied Longitudinal Data Analysis: Modeling Change and Event Occurrence*, Chapters 2--4.\
+-   Rabe-Hesketh, Sophia, and Anders Skrondal. 2012. *Multilevel and Longitudinal Modeling Using Stata*, Chapter 5 and Chapter 7 up to p. 364.\
+-   Wang, Lijuan Peggy, and Scott E. Maxwell. 2015. "On Disaggregating Between-Person and Within-Person Effects with Longitudinal Data Using Multilevel Models." *Psychological Methods* 20(1): 63--83.
+-   Ludwig, Volker, and Josef Brüderl. 2018. "Is There a Male Marriage Premium? New Evidence from the United States." *American Sociological Review* 83(4): 744--770.
+
+#### 2. Latent Curve Models and Multilevel-SEM Syntheses
+
+-   Singer, Judith D., and John B. Willett. 2003. *Applied Longitudinal Data Analysis: Modeling Change and Event Occurrence*, Chapter 8.\
+-   Newsom, Jason. 2015. *Longitudinal Structural Equation Modeling*, Chapter 7.\
+-   Curran, Patrick J., Andrea L. Howard, Sierra Bainter, Stephanie T. Lane, and James S. McGinley. 2014. "The Separation of Between-Person and Within-Person Components of Individual Change Over Time: A Latent Curve Model with Structured Residuals." *Journal of Consulting and Clinical Psychology* 82(5): 879--894.\
+-   Bianconcini, Silvia, and Kenneth A. Bollen. 2018. "The Latent Variable--Autoregressive Latent Trajectory Model: A General Framework for Longitudinal Data Analysis." *Structural Equation Modeling*.\
+-   Usami, Satoshi, Kou Murayama, and Ellen L. Hamaker. 2019. "A Unified Framework of Longitudinal Models to Examine Reciprocal Relations." *Psychological Methods*.
+
+#### 3. Multilevel Analysis of Repeated Cross-Sectional Data
+
+-   Fairbrother, Malcolm. 2014. "Two Multilevel Modeling Techniques for Analyzing Comparative Longitudinal Survey Datasets." *Political Science Research and Methods* 2(1): 119--140.\
+-   Schmidt-Catran, Alexander W., and Malcolm Fairbrother. 2016. "The Random Effects in Multilevel Models: Getting Them Wrong and Getting Them Right." *European Sociological Review* 32(1): 23--38.
+
+### Unit 4: Topics in Longitudinal Analysis
+
+#### 1. Panel Models for Non-Continuous Dependent Variables
+
+-   Andress, Golsch, and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*, Chapter 5.\
+-   Allison, Paul D. 2009. *Fixed Effects Regression Models*, Chapter 3.
+-   Rabe-Hesketh, Sophia, and Anders Skrondal. 2012. *Multilevel and Longitudinal Modeling Using Stata, Volume II: Categorical Responses, Counts and Survival*, Chapters 10--11.
+
+#### 2. Longitudinal Mediation Models
+
+-   Selig, James P., and Kristopher J. Preacher. 2009. "Mediation Models for Longitudinal Data in Developmental Research." *Research in Human Development* 6(2--3): 144--169.\
+-   Preacher, Kristopher J., Michael J. Zyphur, and Zhen Zhang. 2010. "A General Multilevel SEM Framework for Assessing Multilevel Mediation." *Psychological Methods* 15(3): 209--233.\
+-   Muthén, Bengt, and Tihomir Asparouhov. 2015. "Causal Effects in Mediation Modeling: An Introduction with Applications to Latent Variables." *Structural Equation Modeling* 22(1): 12--23.
+-   Blackwell, Matthew. 2013. "A Framework for Dynamic Causal Inference in Political Science." *American Journal of Political Science* 57(2): 504--520.
+
+#### 3. Models for Panel Attrition
+
+-   Baulch, Bob, and Agnes Quisumbing. 2011. "Testing and Adjusting for Attrition in Household Panel Data." *Chronic Poverty Research Centre Toolkit Note*.\
+-   Foster, E. Michael, Grace Y. Fang, and Conduct Problems Research Group. 2004. "Alternative Methods for Handling Attrition: An Illustration Using Data from the Fast Track Evaluation." *Evaluation Review* 28(5): 434--464.\
+-   Newsom, Jason. 2015. *Longitudinal Structural Equation Modeling*, Chapter 13.\
+-   Enders, Craig. 2010. "Models for Missing Not at Random Data." In *Applied Missing Data Analysis*, Chapter 10. New York: The Guilford Press.

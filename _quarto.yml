@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  title: "Analysis of Panel Data"
+  sidebar:
+    background: primary
+    logo: "images/ps2701_logo-modified2.png"
+    pinned: true
+    align: center
+    style: docked
+    contents:
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: materials.qmd
+        text: Materials
+
+format:
+  html:
+    anchor-sections: false
+    page-layout: full
+    theme:
+      light: flatly
+      dark: darkly
+    theme-toggle: true
+    tools:
+      - toggle
+    css: styles.css
+    toc: true
+    
+editor: visual
+
