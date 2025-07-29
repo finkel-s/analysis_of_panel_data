@@ -59,24 +59,24 @@ The course is organized by units and then topics within units. We will maintain 
 
 ### Unit 1: Causal Inference and Econometric Panel Models
 
-#### 1. Introduction to Panel Analysis and Causal Inference
+#### 1. [Introduction to Panel Analysis and Causal Inference](materials.html#introduction-to-panel-analysis)
 
 -   Angrist, Joshua D. and Jőrn-Steffen Pischke. 2009. *Mostly Harmless Econometrics*. Princeton University Press, Chapters 2 and 5.\
 -   Allison, Paul D. 1994. *Using Panel Data to Estimate the Effect of Events*. Sociological Methods and Research 23(2): 174-199.
 -   Allison, Paul D. 2009. *Fixed Effects Regression Models*, Chapters 1-2.
 
-#### 2. Fixed and Random Effects Models
+#### 2. [Fixed and Random Effects Models](materials.html#fixed-and-random-effects-models)
 
 -   Halaby, Charles. 2004. "Panel Models in Sociological Research: Theory into Practice." *Annual Review of Sociology* 30: 535--44. - Andress, Golsch and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*, Chapters 3--4.\
 -   Rabe-Hesketh and Skrondal. *Multilevel and Longitudinal Modeling Using Stata*, Chapters 2--3; Chapter 5 to p.25.\
 -   Allison, Paul D. 2019. "Asymmetric Fixed-effects Models for Panel Data." *Socius* 5: 1--2.
 
-#### 3. Hybrid Models
+#### 3. [Hybrid Models](materials.html#hybrid-models)
 
 -   Firebaugh, Glenn, Warner, C., and Massoglia, M. 2013. "Fixed Effects, Random Effects, and Hybrid Models for Causal Analysis." In S.L. Morgan (Ed.), *Handbook of Causal Inference for Social Research*, pp. 113--132. New York: Springer.\
 -   Bell, Andrew, and Kelvyn Jones. 2015. "Explaining Fixed Effects: Random Effects Modeling of Time Series Cross-Section and Panel Data." *Political Science Research and Methods* 3(1): 133--153.
 
-#### 4. Dynamic Panel Models
+#### 4. [Dynamic Panel Models](materials.html#dynamic-panel-models)
 
 -   Castro-Schilo, Laura, and Kevin J. Grimm. 2018. "Using Residualized Change Versus Difference Scores for Longitudinal Research." *Journal of Social and Relationships* 35(1): 32--58.\
 -   Vaisey, Stephen, and Andrew Miles. 2014. "What You Can---and Can't---Do with Three-Wave Panel Data." *Sociological Methods and Research*.\
@@ -86,24 +86,24 @@ The course is organized by units and then topics within units. We will maintain 
 
 ### Unit 2: Structural Equation Panel Models
 
-#### 1. Introduction to Structural Equation Modeling
+#### 1. [Introduction to Structural Equation Modeling](materials.html#introduction-to-sem)
 
 -   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapter 1 and Appendix.\
 -   Kaplan, David. 2002. *Structural Equation Modeling*, Chapters 2 and 6.\
 -   Hooper, Daire, Coughlan, Joseph, and Mullen, Michael R. 2008. "Structural Equation Modelling: Guidelines for Determining Model Fit." *The Electronic Journal of Business Research Methods* 6: 53--60.
 
-#### 2. Models with Reciprocal Causality
+#### 2. [Models with Reciprocal Causality](materials.html#models-with-reciprocal-causality)
 
 -   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapters 2--3.\
 -   Newsom, Jason. 2015. *Longitudinal Structural Equation Modeling*, Chapters 4--5.
 
-#### 3. Measurement Error Models
+#### 3. [Measurement Error Models](materials.html#measurement-error-models)
 
 -   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapter 4.\
 -   Little, Todd D. 2013. *Longitudinal Structural Equation Modeling*. New York: The Guilford Press, Chapter 5.\
 -   Kaplan, David. 2002. *Structural Equation Modeling*, Chapter 3.
 
-#### 4. SEM Fixed Effects, Random Effects, and Dynamic Panel Models
+#### 4. [SEM Fixed Effects, Random Effects, and Dynamic Panel Models](materials.html#sem-fe-re-dynamic-models)
 
 -   Allison, Paul D. 2009. *Fixed Effects Regression Models*, Chapter 6.\
 -   Finkel, Steven E. 1995. *Causal Analysis with Panel Data*, Chapter 5.\
@@ -113,7 +113,7 @@ The course is organized by units and then topics within units. We will maintain 
 
 ### Unit 3: Multilevel Longitudinal Models
 
-#### 1. Longitudinal Growth and Mixed Models
+#### 1. [Longitudinal Growth and Mixed Models](materials.html#longitudinal-growth-and-mixed-models)
 
 -   Andress, Golsch, and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*, pp. 180--202.\
 -   Singer, Judith D., and John B. Willett. 2003. *Applied Longitudinal Data Analysis: Modeling Change and Event Occurrence*, Chapters 2--4.\
@@ -121,7 +121,7 @@ The course is organized by units and then topics within units. We will maintain 
 -   Wang, Lijuan Peggy, and Scott E. Maxwell. 2015. "On Disaggregating Between-Person and Within-Person Effects with Longitudinal Data Using Multilevel Models." *Psychological Methods* 20(1): 63--83.
 -   Ludwig, Volker, and Josef Brüderl. 2018. "Is There a Male Marriage Premium? New Evidence from the United States." *American Sociological Review* 83(4): 744--770.
 
-#### 2. Latent Curve Models and Multilevel-SEM Syntheses
+#### 2. [Latent Curve Models and Multilevel-SEM Syntheses](materials.html#latent-curve-multilevel-sem)
 
 -   Singer, Judith D., and John B. Willett. 2003. *Applied Longitudinal Data Analysis: Modeling Change and Event Occurrence*, Chapter 8.\
 -   Newsom, Jason. 2015. *Longitudinal Structural Equation Modeling*, Chapter 7.\
@@ -129,27 +129,27 @@ The course is organized by units and then topics within units. We will maintain 
 -   Bianconcini, Silvia, and Kenneth A. Bollen. 2018. "The Latent Variable--Autoregressive Latent Trajectory Model: A General Framework for Longitudinal Data Analysis." *Structural Equation Modeling*.\
 -   Usami, Satoshi, Kou Murayama, and Ellen L. Hamaker. 2019. "A Unified Framework of Longitudinal Models to Examine Reciprocal Relations." *Psychological Methods*.
 
-#### 3. Multilevel Analysis of Repeated Cross-Sectional Data
+#### 3. [Multilevel Analysis of Repeated Cross-Sectional Data](materials.html#repeated-cross-sectional-analysis)
 
 -   Fairbrother, Malcolm. 2014. "Two Multilevel Modeling Techniques for Analyzing Comparative Longitudinal Survey Datasets." *Political Science Research and Methods* 2(1): 119--140.\
 -   Schmidt-Catran, Alexander W., and Malcolm Fairbrother. 2016. "The Random Effects in Multilevel Models: Getting Them Wrong and Getting Them Right." *European Sociological Review* 32(1): 23--38.
 
 ### Unit 4: Topics in Longitudinal Analysis
 
-#### 1. Panel Models for Non-Continuous Dependent Variables
+#### 1. [Panel Models for Non-Continuous Dependent Variables](materials.html#non-continuous-dv-models)
 
 -   Andress, Golsch, and Schmidt. 2013. *Applied Panel Data Analysis for Economic and Social Surveys*, Chapter 5.\
 -   Allison, Paul D. 2009. *Fixed Effects Regression Models*, Chapter 3.
 -   Rabe-Hesketh, Sophia, and Anders Skrondal. 2012. *Multilevel and Longitudinal Modeling Using Stata, Volume II: Categorical Responses, Counts and Survival*, Chapters 10--11.
 
-#### 2. Longitudinal Mediation Models
+#### 2. [Longitudinal Mediation Models](materials.html#longitudinal-mediation-models)
 
 -   Selig, James P., and Kristopher J. Preacher. 2009. "Mediation Models for Longitudinal Data in Developmental Research." *Research in Human Development* 6(2--3): 144--169.\
 -   Preacher, Kristopher J., Michael J. Zyphur, and Zhen Zhang. 2010. "A General Multilevel SEM Framework for Assessing Multilevel Mediation." *Psychological Methods* 15(3): 209--233.\
 -   Muthén, Bengt, and Tihomir Asparouhov. 2015. "Causal Effects in Mediation Modeling: An Introduction with Applications to Latent Variables." *Structural Equation Modeling* 22(1): 12--23.
 -   Blackwell, Matthew. 2013. "A Framework for Dynamic Causal Inference in Political Science." *American Journal of Political Science* 57(2): 504--520.
 
-#### 3. Models for Panel Attrition
+#### 3. [Models for Panel Attrition](materials.html#models-for-panel-attrition)
 
 -   Baulch, Bob, and Agnes Quisumbing. 2011. "Testing and Adjusting for Attrition in Household Panel Data." *Chronic Poverty Research Centre Toolkit Note*.\
 -   Foster, E. Michael, Grace Y. Fang, and Conduct Problems Research Group. 2004. "Alternative Methods for Handling Attrition: An Illustration Using Data from the Fast Track Evaluation." *Evaluation Review* 28(5): 434--464.\

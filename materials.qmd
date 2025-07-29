@@ -15,7 +15,7 @@ title: "Materials"
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr id="introduction-to-panel-analysis" class="unit-start">
       <td rowspan="4">Unit 1 – Causal Inference and Econometric Panel Models</td>
       <td>Introduction to Panel Analysis and Causal Inference</td>
       <td><a href="/lecture_slides/01_introduction/PS2701_2019_Course_Introduction_and_Treatment_Effects_Models.pdf" target="_blank">Lecture&nbsp;1</a></td>
@@ -25,7 +25,7 @@ title: "Materials"
       </td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="fixed-and-random-effects-models" class="lecture-row">
       <td>Fixed and Random Effects Models</td>
       <td><a href="/lecture_slides/02_fixed_random_effects/PS2701_2019_Fixed_Effects_and_First_Difference_Models_for_Multiwave_Data.pdf" target="_blank">Lecture 2</a></td>
       <td>
@@ -33,7 +33,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/02_fixed_random_effects/02_fixed_effects_data.zip" target="_blank">Data</a></td>
     <td></td>
     </tr>
-    <tr>
+    <tr id="hybrid-models" class="lecture-row">
       <td>Hybrid Models</td>
       <td><a href="/lecture_slides/03_hybrid_models/PS2701_2019_Random_Effects_and_Hybrid_Models.pdf" target="_blank">Lecture 3</a></td>
       <td>
@@ -41,7 +41,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/03_hybrid_models/Kenya.3wave long.2017.dta" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="dynamic-panel-models" class="lecture-row">
       <td>Dynamic Panel Models</td>
       <td><a href="/lecture_slides/04_dynamic_panel_models/PS2701_2019_Dynamic_Panel_Models.pdf" target="_blank">Lecture 4</a></td>
       <td>
@@ -49,7 +49,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/04_dynamic_panel_models/democracy.dta" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="introduction-to-sem" class="unit-start">
       <td rowspan="4">Unit 2 – Structural Equation Panel Models</td>
       <td>Introduction to Structural Equation Modeling</td>
       <td><a href="/lecture_slides/05_introduction_sem/PS2701_2019_Introduction_to_SEM.pdf" target="_blank">Lecture&nbsp;5</a></td>
@@ -58,7 +58,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/05_introduction_sem/nes3wave.dta" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="models-with-reciprocal-causality" class="lecture-row">
       <td>Models with Reciprocal Causality</td>
       <td><a href="/lecture_slides/06_models_reciprocal_causality/PS2701_2019_Cross_Lagged_and_Synchronous_Effects_Models.pdf" target="_blank">Lecture&nbsp;6</a></td>
       <td>
@@ -66,7 +66,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/06_models_reciprocal_causality/06_models_reciprocal_causality_data.zip" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="measurement-error-models" class="lecture-row">
       <td>Measurement Error Models</td>
       <td><a href="/lecture_slides/07_measurement_error_models/PS2701_2019_Measurement_Error_Models.pdf" target="_blank">Lecture&nbsp;7</a></td>
       <td>
@@ -74,7 +74,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/07_measurement_error_models/07_measurement_error_models_data.zip" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="sem-fe-re-dynamic-models" class="lecture-row">
       <td>SEM Fixed Effects, Random Effects, and Dynamic Panel Models</td>
       <td><a href="/lecture_slides/08_fe_re_dynamic_sem/PS2701_2019_FE_RE_Dynamic_SEM.pdf" target="_blank">Lecture&nbsp;8</a></td>
       <td>
@@ -82,7 +82,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/08_fe_re_dynamic_sem/08_fe_re_dynamic_sem_data.zip" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="longitudinal-growth-and-mixed-models" class="unit-start">
       <td rowspan="3">Unit 3 – Multilevel Longitudinal Models</td>
       <td>Longitudinal Growth and Mixed Models</td>
       <td><a href="/lecture_slides/09_longitudinal_growth_mixed_models/PS2701_2019_Introduction_to_Multilevel_Panel_and_Growth_Models.pdf" target="_blank">Lecture&nbsp;9</a>
@@ -92,7 +92,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/09_longitudinal_growth_mixed_models/democracy.dta" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="repeated-cross-sectional-analysis" class="lecture-row">
       <td>Multilevel Analysis of Repeated Cross-Sectional Data</td>
       <td><a href="/lecture_slides/10_multilevel_analysis_repeated_cross_sectional/PS2701_2019_Analyzing_Repeated_Cross_Sectional_Data.pdf" target="_blank">Lecture&nbsp;11</a></td>
       <td>
@@ -100,7 +100,7 @@ title: "Materials"
         <a href="https://www.dropbox.com/s/dwqtzl7xxiwavqz/WVS_Longitudinal_1981_2016_stata_v20180912.dta?dl=0" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="latent-curve-multilevel-sem" class="lecture-row">
       <td>Latent Curve Models and Multilevel-SEM Syntheses</td>
       <td><a href="/lecture_slides/11_latent_curve_multilevel_sem/PS2701_2019_Latent_Growth_and_Multilevel_SEM_Extensions.pdf" target="_blank">Lecture&nbsp;12</a></td>
       <td>
@@ -108,7 +108,7 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/11_latent_curve_multilevel_sem/11_latent_curve_multilevel_sem_data.zip" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="non-continuous-dv-models" class="unit-start">
       <td rowspan="3">Unit 4 – Topics in Longitudinal Analysis</td>
       <td>Panel Models for Non-Continuous Dependent Variables</td>
       <td><a href="/lecture_slides/12_panel_models_noncontinuous_dvs/PS2701_2019_Non_Continuous_DV_Models.pdf" target="_blank">Lecture&nbsp;13</a></td>
@@ -117,17 +117,19 @@ title: "Materials"
         <a href="/lecture_supplementary_materials/12_panel_models_noncontinuous_dvs/12_panel_models_noncontinuous_dvs_data.zip" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="longitudinal-mediation-models" class="lecture-row">
       <td>Longitudinal Mediation Models</td>
-      <td><a href="#" target="_blank">Lecture&nbsp;14</a></td>
+      <td>
+      <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+      </td>
       <td>
         <a href="/lecture_supplementary_materials/13_longitudinal_mediation_models/PS2701_2019_Mediation_Models.do" target="_blank">Stata Script</a><br>
         <a href="/lecture_supplementary_materials/13_longitudinal_mediation_models/13_longitudinal_mediation_models_data.zip" target="_blank">Data</a></td>
       <td></td>
     </tr>
-    <tr>
+    <tr id="models-for-panel-attrition" class="lecture-row">
       <td>Models for Panel Attrition</td>
-      <td><a href="/lecture_slides/14_models_panel_attrition/PS2701_2019_Panel_Attrition.pdf" target="_blank">Lecture&nbsp;15</a></td>
+      <td><a href="/lecture_slides/14_models_panel_attrition/PS2701_2019_Panel_Attrition.pdf" target="_blank">Lecture&nbsp;14</a></td>
       <td>
         <a href="/lecture_supplementary_materials/14_models_panel_attrition/14_models_panel_attrition_scripts.zip" target="_blank">Stata Script</a><br>
         <a href="/lecture_supplementary_materials/14_models_panel_attrition/Kenya-CivicED.wide.dta" target="_blank">Data</a></td>
@@ -135,4 +137,32 @@ title: "Materials"
     </tr>
   </tbody>
 </table>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    const hash = window.location.hash;
+
+    if (hash) {
+      setTimeout(() => {
+        const target = document.querySelector(hash);
+
+        // Accept either lecture-row or unit-start targets
+        if (target && (target.classList.contains("lecture-row") || target.classList.contains("unit-start"))) {
+          target.classList.add("highlight");
+
+          if (target.classList.contains("unit-start")) {
+            target.classList.add("unit-highlight");
+          }
+
+          setTimeout(() => {
+            target.classList.remove("highlight");
+            target.classList.remove("unit-highlight");
+          }, 3000);
+
+          history.replaceState(null, null, window.location.pathname);
+        }
+      }, 100);
+    }
+  });
+</script>
+
 ```
